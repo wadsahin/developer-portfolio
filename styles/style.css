@@ -239,3 +239,40 @@ nav ul li a {
 
 }
 
+/* Resume section styles */
+.resume-section{
+    /* border: 2px solid red; */
+    width: 1040px;
+    margin: 100px auto;
+    
+}
+.resume-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.resume-content{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 50px;
+}
+
+.resume-content .resume-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.resume-column .resume-info{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    
+}
+
