@@ -276,3 +276,42 @@ nav ul li a {
     
 }
 
+/* footer styles */
+.footer-section{
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-container{
+    width: 60%;
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+
+
+}
+.footer-column{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px;
+
+}
+.footer-column form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+}
+form .form-data input, textarea{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border: 10px;
+}
+
