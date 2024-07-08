@@ -189,3 +189,53 @@ nav ul li a {
 
 }
 
+
+/* skills section styles */
+.skills-section{
+    width: 1040px;
+    margin: 120px auto;
+    padding: 50px;
+    /* border: 2px solid red; */
+
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    
+}
+.skills-container .skills-title{
+    
+}
+.skills-container .skills-desc{
+    width: 80%;
+    text-align: center;
+}
+
+.skills-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-cards .skill-card{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 20px #c4c4c4;
+    /* styles for is's childs */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    gap: 15px;
+
+}
+
+.skill-card .skill-img{
+    width: 44px;
+    height: 44px;
+
+}
+
